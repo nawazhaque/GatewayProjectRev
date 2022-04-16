@@ -1,0 +1,132 @@
+/* Home, To-Do, Contact pages */
+body{
+    overflow:auto;
+  }
+/* Added in about 7-8 new classes now that I learned a bit more about code and know how to play with things differently. */
+  .title {
+    font-size:540%;
+  }
+  .subHeading {
+    font-size: 345%;
+  }
+  
+  .socials{
+    position:relative; 
+    left: 8%; 
+  }
+  
+  .socialLine{
+    font-size: 95%;
+    position:relative;
+    right: 31%;
+  }
+  
+  .footer{
+    position: relative;
+    bottom:0%;
+    background-color:white;
+    height:10px;
+    }
+  
+  .copyrights {
+    position: relative;
+    right:31%;
+    font-size: 95%; 
+    }
+
+  .copyrightsHome {
+   display: flex;
+   bottom: 0%;
+  }
+    
+  .cclogoHome{
+    height: 201px;
+    width: 251px;
+    position: relative;
+    float: right;
+    right: 41%;
+    display: block;
+    border: 2px solid black;
+    
+    }
+
+    .cclogo{
+      height: 201px;
+      width: 251px;
+      position: relative;
+      float: right;
+      right: 41%;
+      display: block;
+      border: 2px solid black;
+      
+      }
+  
+  ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    }
+  
+  li{
+    margin: 5px;
+    
+  }
+  
+  p{
+    text-align: center;
+    font-size: 150%;
+  }
+  
+  
+  /* home page */
+  
+  .hero{
+    background-image: url("cltHero.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 100%;
+    }
+  
+  /* To-Do Page */
+  
+   .image1{
+    float: left;
+    border: 2px solid black; 
+   }
+  
+  .toDo{
+    font-size: 22px;
+  }
+  
+  .activity{
+    text-align: center;
+    font-size: 180%;
+  }
+  .pageHeading{
+    text-align: center;
+    font-size: 230%;
+  }
+  
+  .lineBreak{
+    clear: both;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+  }
